@@ -1,0 +1,363 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Portfolio</h2>
+
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- 1. Hero Section -->
+        <section class="hero">
+
+            <div class="hero-content">
+                <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>
+                    Hello, I'm <span>Abhishek Tangde</span>
+                </h1>
+
+                <h3>Aspiring Full Stack Developer</h3>
+
+                <p>
+                    I am a Computer Science Engineering student passionate about software development, full-stack web technologies, and building practical digital solutions. Through academic projects and internships, I have gained hands-on experience in application development, problem-solving, and debugging. I am continuously improving my technical skills and aim to build reliable, scalable, and user-focused applications while collaborating effectively with development teams.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="projects.html" class="btn">
+                        Explore My Projects
+                    </a>
+
+                    <a href="contact.html" class="btn btn-outline">
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="images/Photos/Abhi Photo.jpeg"
+                     alt="Abhishek Tangde">
+            </div>
+
+        </section>
+
+        <!-- 2. Quick Introduction and Career Goal -->
+        <section class="intro-section">
+
+            <div class="section-heading">
+                <p class="small-title">A LITTLE ABOUT ME</p>
+                <h2>My Journey in Technology</h2>
+            </div>
+
+            <p class="intro-text">
+                I am pursuing a B.Tech in Computer Science and Engineering
+                at KDK College of Engineering, Nagpur, and expect to
+                graduate in 2027. I have worked on projects involving
+                web development, Python, databases, and machine learning.
+                I enjoy learning new technologies and solving
+                programming problems.
+            </p>
+
+            <div class="career-goal">
+                <h3>My Career Goal</h3>
+
+                <p>
+                    My goal is to become a skilled Full Stack Developer
+                    and contribute to building scalable, reliable,
+                    and user-friendly software applications while
+                    continuously improving my technical skills.
+                </p>
+            </div>
+
+            <a href="about.html" class="text-link">
+                More About Me &rarr;
+            </a>
+
+        </section>
+
+        <!-- 3. Three Highlight Cards -->
+        <section class="highlights section">
+
+            <div class="section-heading">
+                <p class="small-title">QUICK OVERVIEW</p>
+                <h2>Explore My Portfolio</h2>
+
+                <p>
+                    Learn about my technical knowledge, practical work,
+                    and professional development.
+                </p>
+            </div>
+
+            <div class="highlight-grid">
+
+                <!-- Skills Card -->
+                <a href="skills.html" class="highlight-card">
+
+                    <div class="card-icon">&lt;/&gt;</div>
+
+                    <h3>Technical Skills</h3>
+
+                    <p>
+                        Explore my knowledge of C, Python, Java,
+                        HTML, CSS, JavaScript, PostgreSQL,
+                        and development tools.
+                    </p>
+
+                    <span>Explore Skills &rarr;</span>
+
+                </a>
+
+                <!-- Projects Card -->
+                <a href="projects.html" class="highlight-card">
+
+                    <div class="card-icon">&#9881;</div>
+
+                    <h3>My Projects</h3>
+
+                    <p>
+                        Discover my Plant Disease Detection System,
+                        Student Management System, and Weather App.
+                    </p>
+
+                    <span>View Projects &rarr;</span>
+
+                </a>
+
+                <!-- Achievements Card -->
+                <a href="education.html" class="highlight-card">
+
+                    <div class="card-icon">&#9733;</div>
+
+                    <h3>Achievements & Training</h3>
+
+                    <p>
+                        Explore my coding club leadership, NSS activities,
+                        AWS Academy internship, and AI-ML training.
+                    </p>
+
+                    <span>Explore My Journey &rarr;</span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- 4. Featured Projects with Images -->
+        <section class="featured-section">
+
+            <div class="section-heading">
+                <p class="small-title">MY WORK</p>
+                <h2>Featured Projects</h2>
+
+                <p>
+                    Here are three projects from my development journey.
+                </p>
+            </div>
+
+            <div class="project-grid">
+
+                <!-- Project 1 -->
+                <article class="project-card">
+
+                    <img
+                        src="Images/Photos/Plant image.webp"
+                        alt="Plant Disease Detection System"
+                        class="project-image"
+                    >
+
+                    <div class="project-info">
+
+                        <span class="project-tag">
+                            Machine Learning
+                        </span>
+
+                        <h3>Plant Disease Detection System</h3>
+
+                        <p>
+                            Developed a web-based system for plant disease
+                            prediction from leaf images, with disease
+                            information and treatment recommendations.
+                        </p>
+
+                        <div class="tech-tags">
+                            <span>React.js</span>
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>PostgreSQL</span>
+                        </div>
+
+                        <a href="projects.html" class="text-link">
+                            View Project Details &rarr;
+                        </a>
+
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+
+                    <img
+                        src="Images/Photos/student management.webp"
+                        alt="Student Management System"
+                        class="project-image"
+                    >
+
+                    <div class="project-info">
+
+                        <span class="project-tag">
+                            Full Stack Development
+                        </span>
+
+                        <h3>Student Management System</h3>
+
+                        <p>
+                            Developed a full-stack application for
+                            student record management using REST APIs
+                            and database integration.
+                        </p>
+
+                        <div class="tech-tags">
+                            <span>FastAPI</span>
+                            <span>React.js</span>
+                            <span>PostgreSQL</span>
+                        </div>
+
+                        <a href="projects.html" class="text-link">
+                            View Project Details &rarr;
+                        </a>
+
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+
+                    <img
+                        src="Images/Photos/Weather.jpg"
+                        alt="Weather App"
+                        class="project-image"
+                    >
+
+                    <div class="project-info">
+
+                        <span class="project-tag">
+                            Python Development
+                        </span>
+
+                        <h3>Weather App</h3>
+
+                        <p>
+                            Created a weather application that displays
+                            real-time weather information, including
+                            temperature, humidity, and wind speed.
+                        </p>
+
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>Streamlit</span>
+                            <span>OpenWeatherMap API</span>
+                        </div>
+
+                        <a href="projects.html" class="text-link">
+                            View Project Details &rarr;
+                        </a>
+
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="center-button">
+                <a href="projects.html" class="btn">
+                    View All Projects
+                </a>
+            </div>
+
+        </section>
+
+        <!-- 5. Let's Work Together Banner -->
+        <section class="work-banner">
+
+            <p class="small-title">LET'S CONNECT</p>
+
+            <h2>Let's Work Together!</h2>
+
+            <p>
+                I am eager to learn, collaborate with developers,
+                and contribute to meaningful software projects.
+                Let's connect and explore opportunities together.
+            </p>
+
+            <a href="contact.html" class="btn banner-btn">
+                Get In Touch &rarr;
+            </a>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <h3>Abhishek Tangde</h3>
+
+        <p>Aspiring Full Stack Developer</p>
+
+        <div class="footer-links">
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="education.html">Education</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+        <div class="footer-socials">
+
+            <a href="https://github.com/AbhishekTangde"
+               target="_blank">GitHub</a>
+
+            <a href="https://www.linkedin.com/in/abhishek-tangde-938168348/"
+               target="_blank">LinkedIn</a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Abhishek Tangde. All Rights Reserved.
+        </p>
+
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
